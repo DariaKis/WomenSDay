@@ -1,0 +1,193 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Sofia', cursive;*/
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 2px;
+    color: black;
+
+    background: linear-gradient(-45deg, #f5ecec, #f2bdbd);
+
+
+}
+
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.footer_logo{
+    font-family: 'Sofia', cursive;
+    color: #3f3e3e;
+    font-size: 25px;
+    margin-left: 120px;
+}
+
+.footer_nav{
+    max-height: 30px;
+    margin-right: 80px;
+    border: 1px solid #3f3e3e;
+
+    padding: 15px 45px 15px 45px;
+    border-radius: 15px;
+
+}
+
+
+.nav_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+    text-decoration: none;
+    color: #3f3e3e;
+
+}
+.nav_link:last-child{
+    padding-right: 0;
+}
+
+.nav_link:hover{
+    color: crimson;
+}
+
+.footer_img{
+    position: absolute;
+
+}
+
+/*center*/
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 20px 0 25px 10px;
+}
+
+.day{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+
+    color: #d4756f;
+}
+
+.day_numb{
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+.day_post{
+    font-size: 18px;
+    padding-bottom: 10px;
+
+}
+.day_month{
+
+
+
+
+
+
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.women{
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+
+
+}
+
+.img_women{
+    position: absolute;
+    width: 400px;
+    bottom: 150px;
+    margin-bottom: 50px;
+
+}
+
+.img_flower{
+
+    width: 65%;
+    display: flex;
+    position: relative;
+    left: 170px;
+    top: 70px;
+}
+
+.text{
+    color: #3f3e3e;
+    font-family: 'Sofia', cursive;
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+
+/*Ends*/
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.end_img img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.end_txt{
+    width: 130px;
+    height: 50px;
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #3f3e3e;
+    margin-right: 20px;
+
+}
+
+.end_title{
+    margin-bottom: 5px;
+}
